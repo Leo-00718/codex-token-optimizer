@@ -1,0 +1,6 @@
+interface:
+  display_name: "Codex Token Optimizer"
+  short_description: "Diagnose Codex token/context usage and cache misses"
+  long_description: "Read-only diagnostic for Codex sessions: per-request input/cached/output/reasoning tokens, cache hit rate, cache-miss attribution (new tool output vs. rewritten stable prefix), context window and auto-compaction thresholds. Works with local session JSONL, config.toml, the model catalog and the logs DB."
+  category: "Developer Tools"
+  default_prompt: "Diagnose why this Codex session is burning so many tokens and where the cache misses come from."
